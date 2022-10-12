@@ -5,7 +5,7 @@ The following are my solutions for CS31, which was taken in Fall of 2022. The RE
 
 | Project | Score    |
 | :-----: | :---:    |
-| 1       | -/100  | 
+| 1       | 100/100  | 
 | 2       | -/100  | 
 | 3       | -/100  | 
 | 4       | -/100  | 
