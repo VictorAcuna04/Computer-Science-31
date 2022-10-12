@@ -1,4 +1,4 @@
-#Programming Assignment 2: Certain, but not Death
+# Programming Assignment 2: Certain, but not Death
 (Be sure you also do the homework accompanying this project.)
 
 A state legislator is proposing a major reform of the state income tax code, with a provision to incentivize working as a nurse or a teacher. Your job is to write a program that determines how much a taxpayer would pay under the plan.
