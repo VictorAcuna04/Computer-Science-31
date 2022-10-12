@@ -1,3 +1,4 @@
+# Programming Assignment 1: Getting Started with C++
 The purpose of this assignment is to have you start learning how to use the g31 and either the Visual C++ or Xcode environments, and understand a variety of programming errors.
 
 Here's what you are to do:
