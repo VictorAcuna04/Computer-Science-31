@@ -4,100 +4,100 @@ Time due: 09:00 PM Sunday, January 26rd February 1st.
 Here is an example of a dialog for the program I am asking you to create (user input is 
 in boldface): 
 
-State Name: Texas 
-Purchase amount: 30.56 
-Provide the month: January 
-Provide the day: 1 
-Provide the year: 2021 
-Please pay a total of $33.06 
+    State Name: Texas 
+    Purchase amount: 30.56 
+    Provide the month: January 
+    Provide the day: 1 
+    Provide the year: 2021 
+    Please pay a total of $33.06 
   
 In addition to correctly calculating the total payment answer, which includes all necessary 
 taxes, your program needs to handle errors as shown below: 
 
-State Name: texas 
-Purchase amount: 30.56 
-Provide the month: January 
-Provide the day: 2 
-Provide the year: 2020 
-Invalid state! 
- 
-State Name: Texas 
-Purchase amount: -30.56 
-Provide the month: January 
-Provide the day: 2 
-Provide the year: 2020 
-Invalid amount! 
- 
-State Name: Texas 
-Purchase amount: 30.56 
-Provide the month: January january 
-Provide the day: 2 
-Provide the year: 2020 
-Invalid month! 
- 
-State Name: Texas 
-Purchase amount: 30.56 
-Provide the month: February 
-Provide the day: -10 
-Provide the year: 2000 
-Invalid day! 
- 
-State Name: Texas 
-Purchase amount: 30.56 
-Provide the month: March 
-Provide the day: 3 
-Provide the year: -101 
-Invalid year! 
+    State Name: texas 
+    Purchase amount: 30.56 
+    Provide the month: January 
+    Provide the day: 2 
+    Provide the year: 2020 
+    Invalid state! 
 
-State Name: Texas 
-Purchase amount: 30.56 
-Provide the month: 10 
-Provide the day: -101 
-Provide the year: -101 
-Invalid month! 
- 
-State Name: Soth dakota 
-Purchase amount: 30.56 
-Provide the month: January 
-Provide the day: 2 
-Provide the year: 2020 
-Invalid state! 
- 
-State Name: Texas 
-Purchase amount: 0 
-Provide the month: January 
-Provide the day: 2 
-Provide the year: 2020 
-Invalid amount! 
- 
-State Name: Georgia 
-Purchase amount: 30.56 
-Provide the month: march 
-Provide the day: 2 
-Provide the year: 2020 
-Invalid month! 
- 
-State Name: north Carolina 
-Purchase amount: -9 
-Provide the month: February 
-Provide the day: -10 
-Provide the year: 2000 
-Invalid state! 
- 
-State Name: Texas 
-Purchase amount: 30.56 
-Provide the month: March 
-Provide the day: 3 
-Provide the year: 2028 
-Invalid year! 
- 
-State Name: Texas 
-Purchase amount: 30.56 
-Provide the month: jan 
-Provide the day: -101 
-Provide the year: 2028 
-Invalid month! 
- 
+    State Name: Texas 
+    Purchase amount: -30.56 
+    Provide the month: January 
+    Provide the day: 2 
+    Provide the year: 2020 
+    Invalid amount! 
+
+    State Name: Texas 
+    Purchase amount: 30.56 
+    Provide the month: January january 
+    Provide the day: 2 
+    Provide the year: 2020 
+    Invalid month! 
+
+    State Name: Texas 
+    Purchase amount: 30.56 
+    Provide the month: February 
+    Provide the day: -10 
+    Provide the year: 2000 
+    Invalid day! 
+
+    State Name: Texas 
+    Purchase amount: 30.56 
+    Provide the month: March 
+    Provide the day: 3 
+    Provide the year: -101 
+    Invalid year! 
+
+    State Name: Texas 
+    Purchase amount: 30.56 
+    Provide the month: 10 
+    Provide the day: -101 
+    Provide the year: -101 
+    Invalid month! 
+
+    State Name: Soth dakota 
+    Purchase amount: 30.56 
+    Provide the month: January 
+    Provide the day: 2 
+    Provide the year: 2020 
+    Invalid state! 
+
+    State Name: Texas 
+    Purchase amount: 0 
+    Provide the month: January 
+    Provide the day: 2 
+    Provide the year: 2020 
+    Invalid amount! 
+
+    State Name: Georgia 
+    Purchase amount: 30.56 
+    Provide the month: march 
+    Provide the day: 2 
+    Provide the year: 2020 
+    Invalid month! 
+
+    State Name: north Carolina 
+    Purchase amount: -9 
+    Provide the month: February 
+    Provide the day: -10 
+    Provide the year: 2000 
+    Invalid state! 
+
+    State Name: Texas 
+    Purchase amount: 30.56 
+    Provide the month: March 
+    Provide the day: 3 
+    Provide the year: 2028 
+    Invalid year! 
+
+    State Name: Texas 
+    Purchase amount: 30.56 
+    Provide the month: jan 
+    Provide the day: -101 
+    Provide the year: 2028 
+    Invalid month! 
+
  
 These are the data validation rules I want your program to enforce: 
 - the first letter of the state name must be capitalized 
