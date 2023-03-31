@@ -1,8 +1,9 @@
-Programming Assignment 2 
-Sales Tax Payment Calculator 
+# Programming Assignment 2: Sales Tax Payment Calculator 
 Time due: 09:00 PM Sunday, January 26rd February 1st. 
+
 Here is an example of a dialog for the program I am asking you to create (user input is 
 in boldface): 
+
 State Name: Texas 
 Purchase amount: 30.56 
 Provide the month: January 
@@ -12,6 +13,7 @@ Please pay a total of $33.06
   
 In addition to correctly calculating the total payment answer, which includes all necessary 
 taxes, your program needs to handle errors as shown below: 
+
 State Name: texas 
 Purchase amount: 30.56 
 Provide the month: January 
@@ -46,6 +48,7 @@ Provide the month: March
 Provide the day: 3 
 Provide the year: -101 
 Invalid year! 
+
 State Name: Texas 
 Purchase amount: 30.56 
 Provide the month: 10 
