@@ -1,5 +1,4 @@
 # Programming Assignment 2: Sales Tax Payment Calculator 
-Time due: 09:00 PM Sunday, January 26rd February 1st. 
 
 Here is an example of a dialog for the program I am asking you to create (user input is 
 in boldface): 
