@@ -112,6 +112,7 @@ Your program must gather the state name, purchase amount, month, day and year, i
 specific order. You should gather all inputs first before checking for any errors. If 
 you detect more than one error, write only the error message for the first erroneous input 
 item, as shown above. 
+
 A sales tax table is provided for your reference to develop your algorithm to calculate the 
 total payment. The total payment should be the purchase amount plus the required state, 
 local, and levy add-on sale taxes. The State column on the table has the name of all 50 
@@ -122,11 +123,13 @@ Levy (add-on) column has the extra sales tax (in percentage) that the local gove
 wants to collect. The Free Tax Dates column specifies dates that no sales tax is required 
 (including the levy add-on). The total payment should be the same as the purchase amount 
 on free tax dates. Keep in mind that not all states have free tax dates. 
+
 Your program must collect the information for one purchase in the manner indicated by the 
 examples and then write to cout exactly one line in the format required below. We will judge 
 the correctness of your program by examining your output. Your program's output must be 
 in one of the following four forms; the text must be identical to what is shown (except that 
 the italicized portions described below ): 
+
 • If the user enters a state name that is different than what is in the sales tax table: 
    Invalid state! 
 • If the user enters a purchase amount that is not a positive number (with or without 
@@ -146,32 +149,37 @@ decimal places) that is greater than 0 (zero):
 to have two decimal places regardless (for example, 36.00 should not be output as 
 36). 
  
-• Your program's output must not start with any spaces. If you are not a good speller 
+* Your program's output must not start with any spaces. If you are not a good speller 
 or typist, or if English is not your first language, be especially careful about 
 duplicating the messages exactly. Here are some foolish mistakes that may cause 
 you to get no points for correctness on this project, no matter how much time you 
 put into it: 
-• Writing any extra spaces on the output line. 
-• Writing more than one line of output. Don't, for example, add a gratuitous "Thank 
+* Writing any extra spaces on the output line. 
+* Writing more than one line of output. Don't, for example, add a gratuitous "Thank 
 you for using my great sales tax program!" 
-• Writing lines to cerr instead of cout . 
-• Writing lines like these: 
-Please pay a total of 33.06                missing $ sign 
-Please pay a totl of $33.06                misspelling 
-please pay a total of $33.06   lower case p in the word please  
-Please pay a total of $ 33.06             extra spaces 
-Please pay $33.06                  missing words 
+* Writing lines to cerr instead of cout . 
+* Writing lines like these: 
+
+```       
+Please pay a total of 33.06               // missing $ sign 
+Please pay a totl of $33.06               // misspelling 
+please pay a total of $33.06              // lower case p in the word please  
+Please pay a total of $ 33.06             // extra spaces 
+Please pay $33.06                         // missing words 
+```
+
 You will not write any loops in this program. This means that each time you run the 
 program, it handles only one purchase calculation. It also means that in the case of bad 
 input, you must not keep prompting the user until you get something acceptable; our 
 grading tool will not recognize that you're doing that. Also, no user-defined functions. 
 The correctness of your program must not depend on undefined program behavior. Your 
 program could not, for example, assume anything about n 's value at the point indicated: 
-int main() 
-{ 
-int n; 
-int m = 42 * n;  // n's value is undefined 
-... 
+
+    int main() 
+    { 
+    int n; 
+    int m = 42 * n;  // n's value is undefined 
+ 
 What you will turn in for this assignment is a zip file containing these two files and nothing 
 more: 
 1. A text file named payment.cpp that contains the source code for your C++ 
@@ -179,17 +187,19 @@ program. Your source code should have helpful comments that tell the purpose of 
 major program segments and explain any tricky code. 
 2. A file named report.doc or report.docx (in Microsoft Word format) 
 or report.txt (an ordinary text file) that contains your name : 
-a. A brief description of notable obstacles you overcame. (In Project 1, for 
-example, some people had the problem of figuring out how to work with more 
-than one version of a program in Visual C++.) 
-b. A list of the test data that could be used to thoroughly test your program, 
-along with the reason for each test. You don't have to include the results of the 
-tests, but you must note which test cases your program does not handle 
-correctly. (This could happen if you didn't have time to write a complete 
-solution or if you ran out of time while still debugging a supposedly complete 
-solution.)  
+    - A brief description of notable obstacles you overcame. (In Project 1, for 
+    example, some people had the problem of figuring out how to work with more 
+    than one version of a program in Visual C++.) 
+    - A list of the test data that could be used to thoroughly test your program, 
+    along with the reason for each test. You don't have to include the results of the 
+    tests, but you must note which test cases your program does not handle 
+    correctly. (This could happen if you didn't have time to write a complete 
+    solution or if you ran out of time while still debugging a supposedly complete 
+    solution.)  
+
 The writeup Some Things about Strings tells you what you need to know about strings for 
 this project. 
+
 As you develop your program, periodically try it out under another compiler (g++ if you're 
 doing your primary development using Visual C++, or Visual C++ if you're doing your 
 primary development using clang++ or g++ (e.g., with Xcode on a Mac)). Sometimes one 
